@@ -1,0 +1,23 @@
+.cabecalho {
+    grid-area: header;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+nav ul {
+    display: flex;
+    gap: 2rem;
+}
+
+nav ul li a {
+    color: #fff;
+    font-weight: lighter;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
