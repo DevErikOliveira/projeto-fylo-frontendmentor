@@ -1,0 +1,59 @@
+.intro {
+    font-family: 'Raleway', sans-serif;
+    grid-area: sidebar;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    background: hsl(219, 30%, 18%) url(../images/bg-curvy-desktop.svg) no-repeat bottom;
+    background-size: 100%;
+}
+
+.introducao {
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+.introducao {
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+.introducao img {
+    max-width: 100%;
+    margin-bottom: 2rem;
+}
+
+.introducao h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+}
+
+.introducao p {
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    color: hsl(0, 0%, 100%);
+}
+
+.intro .introducao .iniciar {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    background: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+    color: hsl(0, 0%, 100%);
+    border: none;
+    margin-top: 2rem;
+    padding: 1rem 5rem;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+
+}
+
+.intro .introducao .iniciar:hover {
+    background: linear-gradient(to left, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+
+}
+
+

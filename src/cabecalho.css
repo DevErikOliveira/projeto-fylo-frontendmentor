@@ -1,4 +1,6 @@
 .cabecalho {
+    font-family: 'Raleway', sans-serif;
+    background-color: hsl(219, 30%, 18%);
     grid-area: header;
     padding: 2rem;
     display: flex;
@@ -14,8 +16,8 @@ nav ul {
 }
 
 nav ul li a {
-    color: #fff;
-    font-weight: lighter;
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
 }
 
 nav ul li a:hover {

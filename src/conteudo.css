@@ -1,0 +1,186 @@
+.conteudo {
+  grid-area: main;
+
+  background-color: hsl(218, 28%, 13%);
+  display: grid;
+}
+
+.recursos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.recurso {
+  text-align: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 300px;
+  width: 600px;
+  padding: 4rem;
+}
+
+.recurso img {
+  height: 80px;
+}
+
+.recurso h3 {
+  font-family: 'Raleway', sans-serif;
+  margin: 1rem 0;
+  color: hsl(0, 0%, 100%);
+}
+
+.recurso p {
+  padding: 0 auto;
+  font-family: 'Open Sans', sans-serif;
+  color: hsl(0, 0%, 100%);
+  font-size: 14px;
+}
+
+.produtivo {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 3rem;
+  padding: 4rem 2rem;
+}
+
+.produtivo img {
+  flex: 1 1 400px;
+  max-width: 100%;
+}
+
+.produtivo div {
+  font-family: 'Open Sans', sans-serif;
+  flex: 1 1 400px;
+}
+
+.produtivo h1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  ;
+}
+
+.produtivo a {
+  color: #42b0db;
+  display: inline-block;
+  margin-top: 1rem;
+  text-decoration: underline;
+  position: relative;
+}
+
+.produtivo a img {
+  position: absolute;
+  right: -1.5rem;
+  top: 10%;
+
+}
+
+.testemunhos {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+  padding: 4rem 2rem;
+  color: hsl(0, 0%, 100%);
+}
+
+.testemunhos .img-testemunhos {
+  position: absolute;
+  top: 2rem;
+  transform: translateX(-25%);
+}
+
+
+
+.testemunho {
+  position: relative;
+  z-index: 1;
+  flex: 1 1 300px;
+  background-color: hsl(219, 30%, 18%);
+  padding: 2rem;
+  border-radius: 5px;
+  font-size: 0.95rem;
+
+}
+
+.testemunho p {
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+
+}
+
+
+.testemunho .autor {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+
+}
+
+.testemunho .img-autor {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
+}
+
+.testemunho .autor strong {
+  font-size: 0.7rem;
+}
+
+.testemunho .autor span {
+  font-size: 0.5rem;
+
+}
+
+.cta {
+  background-color: #2a2a40;
+  text-align: center;
+  padding: 3rem 2rem;
+  margin: 4rem auto;
+  max-width: 700px;
+  border-radius: 10px;
+}
+
+.cta h2 {
+  margin-bottom: 1rem;
+}
+
+.cta p {
+  margin-bottom: 2rem;
+  color: #c0c0cc;
+}
+
+.cta form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.cta input[type="email"] {
+  padding: 1rem;
+  flex: 1 1 300px;
+  border: none;
+  border-radius: 25px;
+}
+
+.cta button {
+  padding: 1rem 2rem;
+  border-radius: 25px;
+  border: none;
+  background: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+  color: white;
+  cursor: pointer;
+}
+
+.cta button:hover {
+  background: linear-gradient(to left, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+}
