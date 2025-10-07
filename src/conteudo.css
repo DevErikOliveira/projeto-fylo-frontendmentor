@@ -1,0 +1,223 @@
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(218, 28%, 13%);
+
+}
+
+.recursos {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 70%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 25px 0;
+}
+
+.recurso {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 25px;
+}
+
+.recurso img {
+    height: 80px;
+    margin-bottom: 15px;
+}
+
+.recurso h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 15px;
+}
+
+.recurso p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    height: 100px;
+
+}
+
+.produtivo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 15px  5px;
+    padding: 0 25px;
+}
+
+.produtivo .texto-produtivo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 50px;
+}
+
+.produtivo .texto-produtivo h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    line-height: 1.4;
+    width: 300px;
+    margin-bottom: 15px;
+}
+
+.produtivo .texto-produtivo p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 15px;
+}
+
+.produtivo .texto-produtivo a {
+    font-family: 'Raleway', sans-serif;
+    border-bottom: 1px solid hsl(176, 68%, 64%);
+    color: hsl(176, 68%, 64%);  
+}
+
+.produtivo .texto-produtivo a img {
+    margin-left: 5px;
+    transform: translateY(3px);
+}
+
+.testemunhos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 25px;
+    margin: 15px 5px;
+    position: relative;
+    z-index: 0;
+}
+
+.img-testemunhos {
+    position: absolute;
+    top: -20px;
+    left: 25px;
+    z-index: -1;
+    
+}
+
+.testemunho {
+    background-color: hsl(219, 30%, 18%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 350px;
+    height: 200px;
+    margin: 15px;
+    border-radius: 5px;
+    padding: 35px;
+}
+
+.testemunho p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    height: 80px;
+
+}
+
+.autor {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.testemunho img {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.autor li {
+    font-size: 10px;
+}
+
+.autor li:first-child {
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.cta {
+    background-color: hsl(219, 30%, 18%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 250px;
+    width: 60%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px hsl(217, 28%, 15%);
+    padding: 0 10px;
+    transform: translateY(50%);
+}
+
+.cta h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: hsl(0, 0%, 100%);
+}
+
+.cta p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.6;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 15px;
+   padding: 0 50px; 
+}
+.formulario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    margin-top: 25px;
+}
+.formulario input {
+    width: 60%;
+    height: 40px;
+    border-radius: 25px;
+    border: none;
+    padding: 0 20px;
+}
+
+.formulario input::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.formulario button {
+    border: none;
+    height: 40px;
+    width: 150px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: hsl(0, 0%, 100%);
+    background: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+
+}
+
+.formulario button:hover {
+    background: linear-gradient(to right,  hsl(198, 60%, 50%), hsl(176, 68%, 64%));
+}

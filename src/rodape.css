@@ -2,12 +2,13 @@ footer {
     grid-area: footer;
     background-color: hsl(216, 53%, 9%);
     font-family: 'Open Sans', sans-serif;
+    height: 500px;
 }
 
 .rodape-container {
     display: flex;
     flex-direction: column;
-    margin: 150px 70px 100px 100px;
+    margin: 200px 70px 100px 100px;
 }
 
 .logo-rodape {
