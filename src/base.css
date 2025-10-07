@@ -3,6 +3,7 @@ body {
     color: hsl(0, 0%, 100%);
     line-height: 1.6;
     min-height: 100vh;
+    min-width: 320px;
     display: grid;
     grid-template-rows: auto 1fr auto;
     grid-template-areas:

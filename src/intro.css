@@ -1,59 +1,56 @@
 .intro {
-    font-family: 'Raleway', sans-serif;
-    grid-area: sidebar;
-    padding: 2rem;
-    display: grid;
-    grid-template-columns: 1fr;
-    background: hsl(219, 30%, 18%) url(../images/bg-curvy-desktop.svg) no-repeat bottom;
-    background-size: 100%;
+    background: url(../images/bg-curvy-desktop.svg) no-repeat bottom hsl(217, 28%, 15%);
+    background-size: 100% auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .introducao {
-    text-align: center;
-    padding: 4rem 2rem;
-}
-
-.introducao {
-    text-align: center;
-    padding: 4rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
 }
 
 .introducao img {
-    max-width: 100%;
-    margin-bottom: 2rem;
+    margin-bottom: 20px;
+    width: 600px;
 }
 
 .introducao h1 {
-    font-size: 4rem;
-    margin-bottom: 1rem;
-    line-height: 1.2;
+    font-family: "Raleway", sans-serif;
+    font-size: 700;
+    line-height: 1.6;
+    width: 550px;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .introducao p {
-    font-size: 1rem;
     font-family: 'Open Sans', sans-serif;
-    max-width: 600px;
-    margin: 0 auto;
-    color: hsl(0, 0%, 100%);
+    font-size: 400;
+    line-height: 1.6;
+    width: 425px;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-.intro .introducao .iniciar {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    background: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
-    color: hsl(0, 0%, 100%);
+.iniciar {
     border: none;
-    margin-top: 2rem;
-    padding: 1rem 5rem;
+    height: 40px;
+    width: 200px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: hsl(0, 0%, 100%);
+    background: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
     border-radius: 25px;
-    font-size: 1rem;
     cursor: pointer;
+    transition: background 0.3s ease-in-out;
 
 }
 
-.intro .introducao .iniciar:hover {
-    background: linear-gradient(to left, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
-
+.iniciar:hover {
+    background: linear-gradient(to right,  hsl(198, 60%, 50%), hsl(176, 68%, 64%));
 }
-
-

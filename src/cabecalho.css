@@ -1,6 +1,6 @@
 .cabecalho {
     font-family: 'Raleway', sans-serif;
-    background-color: hsl(219, 30%, 18%);
+    background-color: hsl(217, 28%, 15%);
     grid-area: header;
     padding: 2rem;
     display: flex;

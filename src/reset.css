@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    max-width: 1440px;
+    max-width: 100%;
 }
 
 a {
@@ -10,11 +10,6 @@ a {
     color: inherit;
 }
 
-ul {
+ul, ol {
     list-style: none;
-}
-
-a {
-    text-decoration: none;
-    color: inherit;
 }

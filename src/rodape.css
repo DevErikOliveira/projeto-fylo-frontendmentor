@@ -1,0 +1,113 @@
+footer {
+    grid-area: footer;
+    background-color: hsl(216, 53%, 9%);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.rodape-container {
+    display: flex;
+    flex-direction: column;
+    margin: 150px 70px 100px 100px;
+}
+
+.logo-rodape {
+    margin-bottom: 2rem;
+}
+
+.informacoes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.localizacao {
+    display: flex;
+    gap: 1rem;
+    width: 30%;
+}
+
+.loc-img {
+    min-height: 32px;
+    min-width: 32px;
+    transform: translateY(10px);
+}
+
+.contatos {
+    display: flex;
+    flex-direction: column;
+}
+
+.contatos li {
+    margin-bottom: 1rem;
+}
+
+.telefone {
+    position: relative;
+    padding-left: 3em;
+    /* espaço pro ícone */
+
+}
+
+.telefone::before {
+    content: "";
+    content: url('../images/icon-phone.svg');
+    position: absolute;
+    left: 0;
+    top: 50%;
+    /*centraliza verticalmente*/
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+}
+
+.email {
+    position: relative;
+    padding-left: 3em;
+    /* espaço pro ícone */
+
+}
+
+.email::before {
+    content: "";
+    content: url('../images/icon-email.svg');
+    position: absolute;
+    left: 0;
+    top: 50%;
+    /*centraliza verticalmente*/
+    transform: translateY(-40%);
+    width: 20px;
+    height: 20px;
+}
+
+.links1,
+.links2 {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.links1 li,
+.links2 li {
+    margin-bottom: 1rem;
+}
+
+.links1 a:hover,
+.links2 a:hover {
+    text-decoration: underline;
+}
+
+.redes-sociais {
+    display: flex;
+    text-align: center;
+    gap: 1rem;
+    font-size: 24px;
+}
+
+.redes-sociais a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+}
